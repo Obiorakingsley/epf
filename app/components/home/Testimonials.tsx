@@ -49,7 +49,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial) => (
             <article
               key={testimonial.name}
-              className="relative rounded-3xl border bg-white p-8 shadow-sm"
+              className="relative rounded-3xl border bg-white p-8 shadow-sm border-gray-400"
             >
               <Quote className="absolute right-6 top-6 h-16 w-16 text-emerald-100" />
 

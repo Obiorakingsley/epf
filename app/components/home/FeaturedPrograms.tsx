@@ -27,7 +27,7 @@ const programs = [
 
 export default function FeaturedPrograms() {
   return (
-    <section className="py-24">
+    <section className="py-24 py-stack-lg max-w-container-max mx-auto px-margin-desktop">
       <Container>
         <SectionHeading eyebrow="What We Do" title="Transformative Programs" />
 
@@ -38,7 +38,7 @@ export default function FeaturedPrograms() {
             return (
               <article
                 key={program.title}
-                className="group rounded-3xl border bg-white p-8 transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+                className="group rounded-3xl border border-gray-400 bg-white p-8 transition duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
                 <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-50 transition group-hover:bg-emerald-600">
                   <Icon className="h-8 w-8 text-emerald-600 group-hover:text-white" />

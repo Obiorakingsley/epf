@@ -2,11 +2,13 @@ interface Props {
   eyebrow: string;
   title: string;
   center?: boolean;
+  description?: string;
 }
 
 export default function SectionHeading({
   eyebrow,
   title,
+  description,
   center = true,
 }: Props) {
   return (
@@ -15,7 +17,7 @@ export default function SectionHeading({
         {eyebrow}
       </p>
 
-      <h2 className="mt-2 text-4xl font-bold text-slate-900">{title}</h2>
+      <h2 className="mt-2 text-4xl font-bold text-black">{title}</h2>
     </div>
   );
 }
